@@ -24,4 +24,4 @@ resources:
   homepage: http://dbix-class.org/manual/
   license: http://dev.perl.org/licenses/
   repository: git://git.shadowcat.co.uk/dbsrgits/DBIx-Class-Manual-SQLHackers.git
-version: 1.1
+version: 1.2
