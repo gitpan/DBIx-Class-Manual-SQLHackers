@@ -8,7 +8,7 @@ configure_requires:
   ExtUtils::MakeMaker: 6.36
 distribution_type: module
 dynamic_config: 1
-generated_by: 'Module::Install version 1.04'
+generated_by: 'Module::Install version 1.06'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -18,10 +18,13 @@ name: DBIx-Class-Manual-SQLHackers
 no_index:
   directory:
     - inc
+provides:
+  DBIx::Class::Manual::SQLHackers:
+    file: ~
 resources:
   IRC: irc://irc.perl.org/#dbix-class
   bugtracker: http://rt.cpan.org/NoAuth/Bugs.html?Dist=DBIx-Class-Manual-SQLHackers
   homepage: http://dbix-class.org/manual/
   license: http://dev.perl.org/licenses/
   repository: git://git.shadowcat.co.uk/dbsrgits/DBIx-Class-Manual-SQLHackers.git
-version: 1.2
+version: 1.2_1
